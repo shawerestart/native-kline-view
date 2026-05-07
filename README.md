@@ -87,7 +87,7 @@ No additional setup required.
 dependencies:
   native_kline_view:
     git:
-      url: https://github.com/hellohublot/native-kline-view.git
+      url: https://github.com/shawerestart/native-kline-view.git
       path: flutter/native_kline_view
 ```
 
@@ -101,7 +101,7 @@ pod 'NativeKLineView', :path => '../../../ios'
 
 Or remote podspec (no local clone):
 ```ruby
-pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/hellohublot/native-kline-view/main/ios/NativeKLineView.podspec'
+pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/shawerestart/native-kline-view/main/ios/NativeKLineView.podspec'
 ```
 
 ```dart
@@ -117,7 +117,7 @@ NativeKLineView(
 
 Podfile via Git:
 ```ruby
-pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/hellohublot/native-kline-view/main/ios/NativeKLineView.podspec'
+pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/shawerestart/native-kline-view/main/ios/NativeKLineView.podspec'
 ```
 
 Or use a local clone:
@@ -130,7 +130,7 @@ pod 'NativeKLineView', :path => '../native-kline-view/ios'
 Recommended: add as a git submodule (or clone) and point Gradle to the module.
 
 ```bash
-git submodule add https://github.com/hellohublot/native-kline-view.git
+git submodule add https://github.com/shawerestart/native-kline-view.git
 ```
 
 ```gradle

@@ -104,7 +104,7 @@ Android 无需额外配置。
 dependencies:
   native_kline_view:
     git:
-      url: https://github.com/hellohublot/native-kline-view.git
+      url: https://github.com/shawerestart/native-kline-view.git
       path: flutter/native_kline_view
 ```
 
@@ -118,7 +118,7 @@ pod 'NativeKLineView', :path => '../../../ios'
 
 或远程 podspec（无需本地 clone）：
 ```ruby
-pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/hellohublot/native-kline-view/main/ios/NativeKLineView.podspec'
+pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/shawerestart/native-kline-view/main/ios/NativeKLineView.podspec'
 ```
 
 ```dart
@@ -134,7 +134,7 @@ NativeKLineView(
 
 Podfile via Git:
 ```ruby
-pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/hellohublot/native-kline-view/main/ios/NativeKLineView.podspec'
+pod 'NativeKLineView', :podspec => 'https://raw.githubusercontent.com/shawerestart/native-kline-view/main/ios/NativeKLineView.podspec'
 ```
 
 或使用本地 clone：
@@ -147,7 +147,7 @@ pod 'NativeKLineView', :path => '../native-kline-view/ios'
 推荐：git submodule 或 clone 后，以 Gradle project 方式引用。
 
 ```bash
-git submodule add https://github.com/hellohublot/native-kline-view.git
+git submodule add https://github.com/shawerestart/native-kline-view.git
 ```
 
 ```gradle

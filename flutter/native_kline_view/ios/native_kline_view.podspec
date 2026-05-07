@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   Native KLine View for Flutter (iOS platform view).
   DESC
-  s.homepage         = 'https://github.com/hellohublot/native-kline-view'
+  s.homepage         = 'https://github.com/shawerestart/native-kline-view'
   s.license          = { :file => '../../LICENSE' }
   s.author           = { 'hellohublot' => 'hellohublot@gmail.com' }
   s.source           = { :path => '.' }
