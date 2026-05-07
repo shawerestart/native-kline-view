@@ -583,7 +583,10 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView implements D
             if (scrollX >= startX && scrollX <= stopX) {
                 int index = indexFromScrollX(scrollX);
                 String text = getItem(index).Date;
-                canvas.drawText(text, columnSpace * i - mTextPaint.measureText(text) / 2, y, mTextPaint);
+                float textWidth = mTextPaint.measureText(text);
+                float textX = columnSpace * i - textWidth / 2;
+                textX = Math.max(0, Math.min(textX, mWidth - textWidth));
+                canvas.drawText(text, textX, y, mTextPaint);
             }
         }
 
@@ -594,12 +597,16 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView implements D
         float scrollX = viewXToScrollX(0);
         if (scrollX >= startX && scrollX <= stopX) {
             String text = getItem(mStartIndex).Date;
-            canvas.drawText(text, -mTextPaint.measureText(text) / 2, y, mTextPaint);
+            float textWidth = mTextPaint.measureText(text);
+            float textX = Math.max(0, Math.min(-textWidth / 2, mWidth - textWidth));
+            canvas.drawText(text, textX, y, mTextPaint);
         }
         scrollX = viewXToScrollX(mWidth);
         if (scrollX >= startX && scrollX <= stopX) {
             String text = getItem(mStopIndex).Date;
-            canvas.drawText(text, mWidth - mTextPaint.measureText(text) / 2, y, mTextPaint);
+            float textWidth = mTextPaint.measureText(text);
+            float textX = Math.max(0, Math.min(mWidth - textWidth / 2, mWidth - textWidth));
+            canvas.drawText(text, textX, y, mTextPaint);
         }
 
     }

@@ -303,7 +303,8 @@ class HTKLineView: UIScrollView {
             let width = mainDraw.textWidth(title: title, font: font)
             let height = mainDraw.textHeight(font: font)
             let y = childBaseY + childHeight + (configManager.paddingBottom - height) / 2
-            mainDraw.drawText(title: title, point: CGPoint.init(x: x - width / 2.0, y: y), color: configManager.textColor, font: font, context: context, configManager: configManager)
+            let textX = max(0, min(x - width / 2.0, allWidth - width))
+            mainDraw.drawText(title: title, point: CGPoint.init(x: textX, y: y), color: configManager.textColor, font: font, context: context, configManager: configManager)
         }
     }
 
