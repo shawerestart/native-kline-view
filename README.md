@@ -70,7 +70,7 @@ Perfect for cryptocurrency exchanges, stock trading apps, financial dashboards, 
 ### React Native (Git)
 
 ```bash
-yarn add native-kline-view@https://github.com/hellohublot/native-kline-view.git
+yarn add native-kline-view@https://github.com/shawerestart/native-kline-view.git
 ```
 
 React Native iOS:
@@ -316,7 +316,7 @@ Contains parameter settings for various technical indicators:
 
 ## 📄 License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the Apache License 2.0. When distributing or publishing modified versions, keep the original attribution and required notices (including [LICENSE](./LICENSE) and NOTICE content).
 
 ## 🙏 Acknowledgments
 
