@@ -1036,7 +1036,6 @@ public abstract class BaseKLineChartView extends ScrollAndScaleView implements D
         }
         int safeIndex = Math.max(0, Math.min(position, size - 1));
         return configManager.modelArray.get(safeIndex);
-
     }
 
     /**
