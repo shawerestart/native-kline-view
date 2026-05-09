@@ -299,7 +299,7 @@ XML 使用方式：
 
 ## 📄 许可证
 
-本项目基于 Apache License 2.0 许可证；在分发或发布修改版本时，请保留原始版权署名及相关声明（包括 [LICENSE](./LICENSE) 与 NOTICE 中的内容）。
+本项目基于 Apache License 2.0 许可证 - 查看 [LICENSE](./LICENSE) 文件了解详情。
 
 ## 🙏 致谢
 
