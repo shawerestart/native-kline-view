@@ -70,7 +70,7 @@ Perfect for cryptocurrency exchanges, stock trading apps, financial dashboards, 
 ### React Native (Git)
 
 ```bash
-yarn add native-kline-view@https://github.com/shawerestart/native-kline-view.git
+yarn add native-kline-view@https://github.com/hellohublot/native-kline-view.git
 ```
 
 React Native iOS:
