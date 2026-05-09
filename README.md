@@ -316,7 +316,7 @@ Contains parameter settings for various technical indicators:
 
 ## 📄 License
 
-This project is licensed under the Apache License 2.0. When distributing or publishing modified versions, keep the original attribution and required notices (including [LICENSE](./LICENSE) and NOTICE content).
+This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
